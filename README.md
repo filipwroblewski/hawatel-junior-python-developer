@@ -19,8 +19,8 @@ pip install mysql-connector-python
 ```
 
 1. Należy zainstalować bazę danych MySQL i utworzyć bazę o nazwie mydb.
-2. Do bazy danych zaimportować [schemat]() sklepu ecommerce
-3. Następnie należy zaimportować testowe [testowe dane]() do bazy danych  
+2. Do bazy danych zaimportować [schemat](https://github.com/filipwroblewski/hawatel-junior-python-developer/blob/main/resources/schema.sql) sklepu ecommerce
+3. Następnie należy zaimportować testowe [testowe dane](https://github.com/filipwroblewski/hawatel-junior-python-developer/blob/main/resources/data.sql) do bazy danych  
    Uwaga: dane należy ładować w kolejności od góry do dołu, transakcja po transakcji z uwagi
    na to, że niektóre klienty np. MySQL Workbench ładują dane jednocześnie i może wtedy
    wystąpić błąd importu.
